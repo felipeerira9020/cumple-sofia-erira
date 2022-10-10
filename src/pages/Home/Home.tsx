@@ -5,9 +5,6 @@ import Sonido from "../../components/Sonido/Sonido";
 import { ImgFondo } from "./Home.styled";
 
 const Home = () => {
-
-
-  
   return (
     <ImgFondo>
       <Sonido />
