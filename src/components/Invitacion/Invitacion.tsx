@@ -1,4 +1,4 @@
-import { H1, H3 } from './Invitacion.styled'
+import { H1, H3} from './Invitacion.styled'
 
 const Invitacion = () => {
   return (

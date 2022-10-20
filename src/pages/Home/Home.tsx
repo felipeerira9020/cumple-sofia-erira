@@ -1,12 +1,14 @@
 import { useState } from "react";
 import Cinta from "../../components/Cinta/Cinta";
+import { Fecha } from "../../components/Fecha/Fecha";
 import Header from "../../components/Header/Header";
-import Imagen from "../../components/Imagen/Imagen";
 import Invitacion from "../../components/Invitacion/Invitacion";
 import { ImgFondo } from "./Home.styled";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
+
+
 
   setTimeout(() => {
     setLoading(false);
@@ -21,7 +23,7 @@ const Home = () => {
             <Header />
             <Cinta />
             <Invitacion />
-            <Imagen/>
+            <Fecha/>
           </ImgFondo>
         </>
       )}
