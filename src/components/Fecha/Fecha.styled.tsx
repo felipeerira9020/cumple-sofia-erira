@@ -15,7 +15,7 @@ export const Container = styled.div`
 `;
 export const Day = styled.div`
   width: 30%;
-  line-height:  1.3;
+  line-height: 1.3;
 `;
 export const Date = styled.div`
   width: 70%;
@@ -28,7 +28,6 @@ export const H2 = styled.h2`
   text-transform: uppercase;
   color: #f7a8b8;
   font-weight: 500;
-
 `;
 
 export const H2White = styled.h2`
@@ -36,7 +35,6 @@ export const H2White = styled.h2`
   color: white;
   text-transform: uppercase;
   font-weight: 500;
-
 `;
 
 export const H3 = styled.h3`
@@ -65,16 +63,23 @@ export const Barrio = styled.p`
 //div con una imagen de fondo
 
 export const ImgFondo = styled.div`
-    background-image: url("/assets/disney1.png");
-    height:60px;
-    width:60%; ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display:flex ;
-    justify-content:center ;
-    margin-top:10px ;
-    margin-right:auto ;
-    margin-left:auto ;
+  background-image: url("/assets/disney1.png");
+  height: 60px;
+  width: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
 `;
-
+export const Maribel = styled.div`
+  background-image: url("/assets/maribel.png");
+  height: 120px;
+  width: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+`;

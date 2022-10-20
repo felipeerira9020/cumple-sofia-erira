@@ -6,29 +6,40 @@ import Invitacion from "../../components/Invitacion/Invitacion";
 import { ImgFondo } from "./Home.styled";
 
 const Home = () => {
+  //crear un loading que se demore en cargar mientras carga la pagina con sus imagenes
   const [loading, setLoading] = useState(true);
-
-
 
   setTimeout(() => {
     setLoading(false);
-  }, 4000);
+  }, 3000);
+
+  
+
   return (
-    <>
+
+    <div>
       {loading ? (
-        <p>Cargando...</p>
+        <ImgFondo />
       ) : (
-        <>
+        <div>
           <ImgFondo>
-            <Header />
-            <Cinta />
-            <Invitacion />
-            <Fecha/>
+          <Header />
+          <Cinta />
+          <Fecha />
+          <Invitacion />
           </ImgFondo>
-        </>
+        </div>
       )}
-    </>
+    </div>
   );
 };
+  
+          // <ImgFondo>
+          //   <Header />
+          //   <Cinta />
+          //   <Invitacion />
+          //   <Fecha/>
+          // </ImgFondo>
+      
 
 export default Home;

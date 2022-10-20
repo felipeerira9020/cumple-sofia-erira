@@ -1,4 +1,4 @@
-import { Barrio, Container, Date, Day, H2, H2White, H3, ImgFondo, PWhite } from './Fecha.styled'
+import { Barrio, Container, Date, Day, H2, H2White, H3, ImgFondo, Maribel, PWhite } from './Fecha.styled'
 
 export const Fecha = () => {
 
@@ -8,6 +8,7 @@ export const Fecha = () => {
             <H2>sabado</H2>
             <H2White>25</H2White>
             <H2 fontSize='1.5rem'>mARZO</H2>
+            <Maribel/>
         </Day>
         <Date>
             <H3 textAling='center'>Lugar:</H3>
