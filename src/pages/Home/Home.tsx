@@ -13,33 +13,22 @@ const Home = () => {
     setLoading(false);
   }, 3000);
 
-  
-
   return (
-
     <div>
       {loading ? (
         <ImgFondo />
       ) : (
         <div>
           <ImgFondo>
-          <Header />
-          <Cinta />
-          <Fecha />
-          <Invitacion />
+            <Header />
+            <Cinta />
+            <Invitacion />
+            <Fecha />
           </ImgFondo>
         </div>
       )}
     </div>
   );
 };
-  
-          // <ImgFondo>
-          //   <Header />
-          //   <Cinta />
-          //   <Invitacion />
-          //   <Fecha/>
-          // </ImgFondo>
-      
 
 export default Home;
