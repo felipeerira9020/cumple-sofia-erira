@@ -11,14 +11,14 @@ const Home = () => {
 
   setTimeout(() => {
     setLoading(false);
-  }, 3000);
+  }, 4000);
 
   return (
     <div>
       {loading ? (
-         <ImgFondo>
-         <Loading/>
-         </ImgFondo>
+          <ImgFondo>
+          <Loading/>
+          </ImgFondo>
       ) : (
         <div>
           <ImgFondo>
@@ -27,7 +27,7 @@ const Home = () => {
             <Invitacion />
             <Fecha />
           </ImgFondo>
-         
+       
         </div>
       )}
     </div>
