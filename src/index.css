@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Mouse Memoirs', sans-serif ;}
+  font-family: 'Mouse Memoirs', sans-serif;
+
+  ;}
 
 :root {
   --primary-color: #1b9089;

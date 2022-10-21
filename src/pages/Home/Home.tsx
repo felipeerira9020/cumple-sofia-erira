@@ -3,10 +3,10 @@ import Cinta from "../../components/Cinta/Cinta";
 import { Fecha } from "../../components/Fecha/Fecha";
 import Header from "../../components/Header/Header";
 import Invitacion from "../../components/Invitacion/Invitacion";
+import Ubicacion from "../../components/Ubicacion/Ubicacion";
 import { ImgFondo, Loading } from "./Home.styled";
 
 const Home = () => {
-  //crear un loading que se demore en cargar mientras carga la pagina con sus imagenes
   const [loading, setLoading] = useState(true);
 
   setTimeout(() => {
@@ -16,9 +16,9 @@ const Home = () => {
   return (
     <div>
       {loading ? (
-          <ImgFondo>
-          <Loading/>
-          </ImgFondo>
+        <ImgFondo height="100vh">
+          <Loading />
+        </ImgFondo>
       ) : (
         <div>
           <ImgFondo>
@@ -26,8 +26,8 @@ const Home = () => {
             <Cinta />
             <Invitacion />
             <Fecha />
+            <Ubicacion/>
           </ImgFondo>
-       
         </div>
       )}
     </div>
