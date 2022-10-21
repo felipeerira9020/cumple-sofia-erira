@@ -9,3 +9,11 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 `;
+export const Loading= styled.div`
+background-image: url("/assets/mirabel-baila.gif");
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+`;
