@@ -8,6 +8,11 @@ height: 100vh;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+
+@media (min-width: 768px) {
+    display: none;
+}
+
 `;
 export const Loading= styled.div`
 background-image: url("/assets/loading2.png!c1024wm0");
@@ -16,7 +21,6 @@ height: 150px;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-/* colocarlo en la mitad de la pagina */
 position: absolute ;
 top:30% ;
 text-align:center ;
