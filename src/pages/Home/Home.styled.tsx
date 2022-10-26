@@ -6,7 +6,7 @@ interface IHeight {
 }
 
 export const ImgFondo = styled.div`
-background-image: url("assets/home-background.png");
+background-image: url("assets/home-background.avif");
 width: 100%;
 height: ${(props: IHeight) => props.height || "auto"};
 background-size: cover;
@@ -20,6 +20,7 @@ padding-bottom:50px ;
 }
 
 `;
+
 export const Loading= styled.div`
 background-image: url("/assets/loading2.png!c1024wm0");
 width: 40%;

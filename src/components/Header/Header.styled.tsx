@@ -9,7 +9,6 @@ export const Maribel = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   top: 0;
-  position: sticky;
 `;
 
 export const Mariposas = styled.div`
