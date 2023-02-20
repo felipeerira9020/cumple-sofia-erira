@@ -11,7 +11,7 @@ const Ubicacion = () => {
   const [opacity, setOpacity] = useState(1);
 
   setInterval(() => {
-    setOpacity(opacity === 1 ? 0.5 : 1);
+    setOpacity(opacity === 1 ? 0 : 1);
   }, 1000);
 
   setInterval(() => {
