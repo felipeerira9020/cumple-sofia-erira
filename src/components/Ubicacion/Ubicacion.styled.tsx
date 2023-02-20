@@ -49,9 +49,23 @@ font-size:1.8rem ;
 letter-spacing: 2px;
 `
 
-export const  Object = styled.object`
-        width:100%;
-        height:400px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+export const Redirigir = styled.a`
+width: 100%;
+height: 300px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+`
+
+export const  Ubication = styled.div`
+background-image: url("https://imaginario.com.co/wp-content/uploads/2020/08/Peces-al-agua-2.png");
+width: 100%;
+height: 300px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
 `

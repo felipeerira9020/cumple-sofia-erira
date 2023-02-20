@@ -13,7 +13,7 @@ export const Fecha = () => {
         <Date>
             <H3 textAling='center'>Lugar:</H3>
             <PWhite>Mall Edificio Select</PWhite>
-            <PWhite>Cra. 30 #10c-134</PWhite>
+            <PWhite>Cra. 30 #10c-134, Peces al agua</PWhite>
             <Barrio>El Poblado, Medellín</Barrio>
             <H3 paddingLeft="20px">hORA: 3:00 p.m.</H3>
             <ImgFondo/>
