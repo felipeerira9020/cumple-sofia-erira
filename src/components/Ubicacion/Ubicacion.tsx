@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 import { Click, Container, H2, Redirigir, Ubication } from "./Ubicacion.styled";
 
 const Ubicacion = () => {
-  //crear un evento que el texto de click se desaparezca y aparezca el texto de ubicacion cada segundo
-
   const [color , setColor] = useState("#1b9089");
-  //que cambie de color cada segundo
   const [opacity, setOpacity] = useState(1);
 
   setInterval(() => {
@@ -17,17 +14,6 @@ const Ubicacion = () => {
   setInterval(() => {
     setColor(color === "#1b9089" ? "#90891b" : "#1b9089");
   }, 1000);
-
-
-
-
-
-
-
-
-
-
-
 
   return (
     <Container>
