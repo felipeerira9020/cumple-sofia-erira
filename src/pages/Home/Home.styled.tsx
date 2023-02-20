@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-//interfaz para el heigh
 interface IHeight {
     height?: string;
 }
@@ -16,7 +15,15 @@ padding-bottom:50px ;
 
 
 @media (min-width: 768px) {
-    display: none;
+    padding: 1% 20%;
+}
+@media (min-width: 1024px) {
+    width: 30%;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+;
 }
 
 `;
