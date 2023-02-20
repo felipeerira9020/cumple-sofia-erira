@@ -77,7 +77,7 @@ export const Footer = styled.footer`
 
     p{
         text-align: center;
-        color: #1b9089;
+        color: #cddfdd;
         font-weight: 100;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
