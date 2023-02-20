@@ -5,6 +5,7 @@ import Ubicacion from "../../components/Ubicacion/Ubicacion";
 import { ImgFondo, Loading } from "./Home.styled";
 import { useEffect, useState } from "react";
 import { IProps } from "../../components/model/interface";
+import Confirmar from "../../components/Confirmar/Confirmar";
 
 const Home = () => {
   const [data, setData] = useState<IProps[]>([]);
@@ -27,6 +28,7 @@ const Home = () => {
         <Invitacion />
         <Fecha />
         <Ubicacion />
+        <Confirmar/>
       </ImgFondo>
     </div>
   );
