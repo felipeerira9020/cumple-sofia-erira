@@ -12,14 +12,14 @@ export const Fecha = () => {
         </Day>
         <Date>
             <H3 textAling='center'>Lugar:</H3>
-            <PWhite>Centro Comercial el tesoro</PWhite>
-            <PWhite>Avida 10 7-23</PWhite>
-            <Barrio>El poblado</Barrio>
-            <H3 paddingLeft="20px">hORA: 2:00 p.m.</H3>
+            <PWhite>Mall Edificio Select</PWhite>
+            <PWhite>Cra. 30 #10c-134</PWhite>
+            <Barrio>El Poblado, Medellín</Barrio>
+            <H3 paddingLeft="20px">hORA: 3:00 p.m.</H3>
             <ImgFondo/>
+            
 
         </Date>
     </Container>
-
   )
 }

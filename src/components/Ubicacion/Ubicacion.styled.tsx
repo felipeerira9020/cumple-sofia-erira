@@ -8,6 +8,7 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 width:100%;
+padding: 0px 10px;
 .flecha{
     font-size: 3rem;
     color: var(--secondary-color);
@@ -41,7 +42,6 @@ width:100%;
 }
 `
 
-//crear h2 con color primary
 
 export const H2 = styled.h2`
 color:var(--primary-color);
@@ -49,3 +49,9 @@ font-size:1.8rem ;
 letter-spacing: 2px;
 `
 
+export const  Object = styled.object`
+        width:100%;
+        height:400px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+`
