@@ -6,6 +6,7 @@ import Ubicacion from "../../components/Ubicacion/Ubicacion";
 import { ImgFondo, Loading } from "./Home.styled";
 import { useEffect, useState } from "react";
 import { IProps } from "../../components/model/interface";
+import styled from "styled-components";
 
 const Home = () => {
   const [data, setData] = useState<IProps[]>([]);
@@ -17,13 +18,14 @@ const Home = () => {
       .then((data) => setData(data));
       setTimeout(() => setLoading(false), 2000);
   }, []);
-
+  console.log(data);
+  
   if (loading) {
     return <Loading/>
   }
   return (
     <div>
-      <ImgFondo>
+      <ImgFondo style={{ backgroundImage: `url(${data?.[0]?.fondo})` }}>
         <Header img={data?.[0]?.img} />
         <Cinta />
         <Invitacion />

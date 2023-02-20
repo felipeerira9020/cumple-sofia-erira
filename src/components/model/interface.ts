@@ -1,3 +1,4 @@
 export interface IProps {
-    img : string;
+    img? : string;
+    fondo? : string;
 }
