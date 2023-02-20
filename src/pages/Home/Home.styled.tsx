@@ -11,7 +11,7 @@ height: ${(props: IHeight) => props.height || "auto"};
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-padding-bottom:50px ;
+padding-bottom:40px ;
 
 
 @media (min-width: 768px) {
@@ -58,6 +58,8 @@ animation: move 1s infinite;
 }
 @media (min-width: 768px) {
     width: 20%;
+    margin-right: auto;
+    margin-left: auto;
 }
 @media (min-width: 1024px) {
     width: 10%;

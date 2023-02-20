@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { IProps } from "../../components/model/interface";
 import Confirmar from "../../components/Confirmar/Confirmar";
 import Confetti from "../../components/Confetti/Confetti";
+import Espero from "../../components/Espero/Espero";
 
 const Home = () => {
   const [data, setData] = useState<IProps[]>([]);
@@ -37,6 +38,7 @@ const Home = () => {
         <Fecha />
         <Ubicacion />
         <Confirmar />
+        <Espero/>
       </ImgFondo>
     </div>
    
