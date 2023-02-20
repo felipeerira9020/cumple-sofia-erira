@@ -8,11 +8,11 @@ const Ubicacion = () => {
 
   setInterval(() => {
     setOpacity(opacity === 1 ? 0.9 : 1);
-  }, 1000);
+  }, 2000);
 
   setInterval(() => {
-    setColor(color === "#383b3bd3" ? "#383b3bef" : "#383b3bd3");
-  }, 1000);
+    setColor(color === "#383b3bd3" ? "#383b3b97" : "#383b3bd3");
+  }, 2000);
 
   return (
     <Container>
