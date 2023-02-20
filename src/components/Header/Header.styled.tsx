@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 
 export const Maribel = styled.div`
-  background-image: url("assets/maribel.jpg");
   width: 100%;
   height: 400px;
   background-size: cover;
