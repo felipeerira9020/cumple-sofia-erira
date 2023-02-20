@@ -73,11 +73,11 @@ export const Footer = styled.footer`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;;
+    padding: 30px 20px;;
 
     p{
         text-align: center;
-        color: #fff;
+        color: #1b9089;
         font-weight: 100;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
