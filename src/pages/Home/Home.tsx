@@ -15,11 +15,17 @@ const Home = () => {
     fetch("https://6398eb4efe03352a94e1d4ba.mockapi.io/api/users")
       .then((res) => res.json())
       .then((data) => setData(data));
-      setTimeout(() => setLoading(false), 2000);
+    setTimeout(() => setLoading(false), 3000);
   }, []);
-  
+
   if (loading) {
-    return <Loading/>
+    return (
+      <ImgFondo
+        style={{ backgroundImage: `url(${data?.[0]?.fondo})`, height: "100vh" }}
+      >
+        <Loading />{" "}
+      </ImgFondo>
+    );
   }
   return (
     <div>
@@ -28,7 +34,7 @@ const Home = () => {
         <Invitacion />
         <Fecha />
         <Ubicacion />
-        <Confirmar/>
+        <Confirmar />
       </ImgFondo>
     </div>
   );

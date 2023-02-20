@@ -36,7 +36,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 position: absolute ;
-top:30% ;
+top:40% ;
 text-align:center ;
 animation: move 1s infinite;
 @keyframes move {
