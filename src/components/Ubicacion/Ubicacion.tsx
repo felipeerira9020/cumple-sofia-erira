@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Click, Container, H2, Redirigir, Ubication } from "./Ubicacion.styled";
 
 const Ubicacion = () => {
-  const [color , setColor] = useState("#1b9089");
+  const [color , setColor] = useState("#383b3bd3");
   const [opacity, setOpacity] = useState(1);
 
   setInterval(() => {
@@ -12,15 +12,13 @@ const Ubicacion = () => {
   }, 1000);
 
   setInterval(() => {
-    setColor(color === "#1b9089" ? "#90891b" : "#1b9089");
+    setColor(color === "#383b3bd3" ? "#979796" : "#383b3bd3");
   }, 1000);
 
   return (
     <Container>
       <H2>Ubicación</H2>
-      <Link to="/ubicacion">
         <AiFillCaretDown className="flecha" />
-      </Link>
       <Redirigir href="https://goo.gl/maps/jHanrGXURuR6rZ3LA" target="_blank">
         <Ubication>
           <Click>
