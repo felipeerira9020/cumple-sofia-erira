@@ -1,35 +1,35 @@
-import { useState } from "react";
 import Cinta from "../../components/Cinta/Cinta";
 import { Fecha } from "../../components/Fecha/Fecha";
 import Header from "../../components/Header/Header";
 import Invitacion from "../../components/Invitacion/Invitacion";
 import Ubicacion from "../../components/Ubicacion/Ubicacion";
 import { ImgFondo, Loading } from "./Home.styled";
+import { useEffect, useState } from "react";
+import { IProps } from "../../components/model/interface";
 
 const Home = () => {
+  const [data, setData] = useState<IProps[]>([]);
   const [loading, setLoading] = useState(true);
 
-  setTimeout(() => {
-    setLoading(false);
-  }, 5000);
+  useEffect(() => {
+    fetch("https://6398eb4efe03352a94e1d4ba.mockapi.io/api/users")
+      .then((res) => res.json())
+      .then((data) => setData(data));
+      setTimeout(() => setLoading(false), 2000);
+  }, []);
 
+  if (loading) {
+    return <Loading/>
+  }
   return (
     <div>
-      {loading ? (
-        <ImgFondo height="100vh">
-          <Loading />
-        </ImgFondo>
-      ) : (
-        <div>
-          <ImgFondo>
-            <Header />
-            <Cinta />
-            <Invitacion />
-            <Fecha />
-            <Ubicacion/>
-          </ImgFondo>
-        </div>
-      )}
+      <ImgFondo>
+        <Header img={data?.[0]?.img} />
+        <Cinta />
+        <Invitacion />
+        <Fecha />
+        <Ubicacion />
+      </ImgFondo>
     </div>
   );
 };
