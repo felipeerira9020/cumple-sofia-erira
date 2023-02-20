@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { AiFillCaretDown } from "react-icons/ai";
-import { Link } from "react-router-dom";
 import { Click, Container, H2, Redirigir, Ubication } from "./Ubicacion.styled";
 
 const Ubicacion = () => {
@@ -8,11 +7,11 @@ const Ubicacion = () => {
   const [opacity, setOpacity] = useState(1);
 
   setInterval(() => {
-    setOpacity(opacity === 1 ? 0.6 : 1);
+    setOpacity(opacity === 1 ? 0.9 : 1);
   }, 1000);
 
   setInterval(() => {
-    setColor(color === "#383b3bd3" ? "#979796" : "#383b3bd3");
+    setColor(color === "#383b3bd3" ? "#383b3bef" : "#383b3bd3");
   }, 1000);
 
   return (
