@@ -6,6 +6,7 @@ import { ImgFondo, Loading } from "./Home.styled";
 import { useEffect, useState } from "react";
 import { IProps } from "../../components/model/interface";
 import Confirmar from "../../components/Confirmar/Confirmar";
+import Confetti from "../../components/Confetti/Confetti";
 
 const Home = () => {
   const [data, setData] = useState<IProps[]>([]);
@@ -29,6 +30,7 @@ const Home = () => {
   }
   return (
     <div>
+       <Confetti/>
       <ImgFondo style={{ backgroundImage: `url(${data?.[0]?.fondo})` }}>
         <Header img={data?.[0]?.img} />
         <Invitacion />
@@ -37,6 +39,7 @@ const Home = () => {
         <Confirmar />
       </ImgFondo>
     </div>
+   
   );
 };
 

@@ -56,5 +56,12 @@ animation: move 1s infinite;
         left: 0;
     }
 }
+@media (min-width: 768px) {
+    width: 20%;
+}
+@media (min-width: 1024px) {
+    width: 10%;
+}
+
 
 `;
