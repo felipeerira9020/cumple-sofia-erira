@@ -2,7 +2,7 @@ import { Fecha } from "../../components/Fecha/Fecha";
 import Header from "../../components/Header/Header";
 import Invitacion from "../../components/Invitacion/Invitacion";
 import Ubicacion from "../../components/Ubicacion/Ubicacion";
-import { ImgFondo, Loading } from "./Home.styled";
+import { Footer, ImgFondo, Loading } from "./Home.styled";
 import { useEffect, useState } from "react";
 import { IProps } from "../../components/model/interface";
 import Confirmar from "../../components/Confirmar/Confirmar";
@@ -39,6 +39,10 @@ const Home = () => {
         <Ubicacion />
         <Confirmar />
         <Espero/>
+      <Footer>
+        <p>© 2023</p>
+        <p>Contacto: 3017548257 - 3004296003</p>
+      </Footer>
       </ImgFondo>
     </div>
    

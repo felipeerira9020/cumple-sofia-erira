@@ -11,7 +11,6 @@ height: ${(props: IHeight) => props.height || "auto"};
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-padding-bottom:40px ;
 
 
 @media (min-width: 768px) {
@@ -66,4 +65,22 @@ animation: move 1s infinite;
 }
 
 
+`;
+
+export const Footer = styled.footer`
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;;
+
+    p{
+        text-align: center;
+        color: #fff;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+
+    }
 `;
