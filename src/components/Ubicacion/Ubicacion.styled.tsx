@@ -76,36 +76,9 @@ align-items: center;
 
 export const Click = styled.div`
     z-index: 10;
-    //hacer una transicion que apareza el texto y desaparezca
-
-    color: var(--secondary-color);
+    color: #00000092;
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 2px;
     text-align: center;
-    animation: move 1s infinite;
-    //un keyframes que haga que el apareza y desaparezca
-    @keyframes move {
-        0% {
-            top: 0;
-            opacity: 0;
-        }
-        25% {
-            top: 5%;
-            opacity: 1;
-        }
-        50% {
-            top: 10%;
-            opacity: 0;
-        }
-        75% {
-            top: 15%;
-            opacity: 1;
-        }
-        100% {
-            top: 0;
-            opacity: 0;
-        }
-    }
-    
 `
