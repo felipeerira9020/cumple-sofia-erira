@@ -1,6 +1,6 @@
 import { AiFillCaretDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import { Container, H2, Redirigir, Ubication } from "./Ubicacion.styled";
+import { Click, Container, H2, Redirigir, Ubication } from "./Ubicacion.styled";
 
 const Ubicacion = () => {
   return (
@@ -10,7 +10,11 @@ const Ubicacion = () => {
         <AiFillCaretDown className="flecha" />
       </Link>
       <Redirigir href="https://goo.gl/maps/jHanrGXURuR6rZ3LA" target="_blank">
-        <Ubication />
+        <Ubication>
+          <Click>
+          Click para ver en Google Maps
+          </Click>
+        </Ubication>
       </Redirigir>
     </Container>
   );

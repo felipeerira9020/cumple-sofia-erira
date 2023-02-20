@@ -54,6 +54,7 @@ width: 100%;
 height: 300px;
 border-radius: 10px;
 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+text-decoration: none;
 
 `
 
@@ -67,5 +68,42 @@ background-repeat: no-repeat;
 background-size: cover;
 border-radius: 10px;
 box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    
+z-index: 2;
+display: flex;
+justify-content: center;
+align-items: center;
+`
+
+export const Click = styled.div`
+    z-index: 10;
+    //hacer una transicion que apareza el texto y desaparezca
+
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    animation: move 1s infinite;
+    @keyframes move {
+        0% {
+            top: 0;
+            color: var(--secondary-color);
+        }
+        25% {
+            top: 5%;
+            color: var(--primary-color);
+        }
+        50% {
+            top: 10%;
+            color: var(--secondary-color);
+        }
+        75% {
+            top: 15%;
+            color: var(--primary-color);
+        }
+        100% {
+            top: 0;
+            color: var(--secondary-color);
+        }
+    }
 `
