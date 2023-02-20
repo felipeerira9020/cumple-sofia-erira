@@ -11,12 +11,12 @@ const Ubicacion = () => {
   const [opacity, setOpacity] = useState(1);
 
   setInterval(() => {
-    setOpacity(opacity === 1 ? 0 : 1);
+    setOpacity(opacity === 1 ? 0.6 : 1);
   }, 1000);
 
   setInterval(() => {
     setColor(color === "#1b9089" ? "#90891b" : "#1b9089");
-  }, 2000);
+  }, 1000);
 
 
 
