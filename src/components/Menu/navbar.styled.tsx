@@ -78,7 +78,7 @@ export const Menu = styled.div`
     }
   }
   img {
-    width: 300px;
+    width: 250px;
     height: auto;
     padding-top: 100px;
   }
