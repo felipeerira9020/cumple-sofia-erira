@@ -27,20 +27,19 @@ export const Nav = styled.div`
   left: auto;
   right: 0;
   text-align: center;
-  background: #232324;
   background: linear-gradient(
     50deg,
-    #dadada 0%,
-    #8f8d8d 10%,
-    #0a0a0a 50%,
-    #111111 100%
+    #90891b 0%,
+    #90891b 10%,
+    #1b9089  50%,
+    #1b9089 100%
   );
   z-index: 100;
   height: 100%;
   position: fixed;
 `;
 export const Close = styled.button`
-  background: #ff00009d;
+  background: #1313139d;
   color: white;
   font-size: 30px;
   font-weight: 100;
@@ -67,7 +66,7 @@ export const Menu = styled.div`
       margin: 20px 0;
       a {
         text-decoration: none;
-        color: #f7a8b8;
+        color: #fddce2;
         font-size: 25px;
         font-weight: 100;
         letter-spacing: 2px;
