@@ -14,6 +14,7 @@ export const MenuContainer = styled.nav`
 `;
 export const Button = styled.button`
   background: transparent;
+  border-color: transparent;
   cursor: pointer;
   width: auto;
 `;
@@ -27,20 +28,16 @@ export const Nav = styled.div`
   right: 0;
   text-align: center;
   background: #232324;
-    background: linear-gradient(
+  background: linear-gradient(
     50deg,
     #dadada 0%,
     #8f8d8d 10%,
     #0a0a0a 50%,
     #111111 100%
-    );
-    
-        
-
-
-  height: 100%;
+  );
   z-index: 100;
   height: 100%;
+  position: fixed;
 `;
 export const Close = styled.button`
   background: #ff00009d;
@@ -70,14 +67,14 @@ export const Menu = styled.div`
       margin: 20px 0;
       a {
         text-decoration: none;
-        color: pink;
+        color: #f7a8b8;
         font-size: 25px;
         font-weight: 100;
         letter-spacing: 2px;
         &:hover {
-            color: #90891b;
-        }    
-    }
+          color: #90891b;
+        }
+      }
     }
   }
   img {
