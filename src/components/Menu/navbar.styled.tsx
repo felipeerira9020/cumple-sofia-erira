@@ -78,8 +78,8 @@ export const Menu = styled.div`
     }
   }
   img {
-    width: 200px;
+    width: 300px;
     height: auto;
-    padding-top: 200px;
+    padding-top: 100px;
   }
 `;

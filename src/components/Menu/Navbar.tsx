@@ -32,7 +32,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <img src="/assets/maribel.png" alt="" />
+            <img src="https://media1.giphy.com/media/aZOuIQmvS8A78JsuUA/200w.gif" alt="" />
           </Menu>
           <Close onClick={handleClick}>X</Close>
         </Nav>
