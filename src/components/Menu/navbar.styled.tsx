@@ -43,8 +43,9 @@ export const Close = styled.button`
   color: white;
   font-size: 30px;
   font-weight: 100;
-  border-radius: 50%;
-  width: 50px;
+  border-radius: 10px;
+  width: auto;
+    padding: 10px 20px;
   height: 50px;
   position: absolute;
   border: transparent;

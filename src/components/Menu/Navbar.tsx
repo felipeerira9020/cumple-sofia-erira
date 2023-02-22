@@ -34,7 +34,7 @@ const Navbar = () => {
             </ul>
             <img src="https://media1.giphy.com/media/aZOuIQmvS8A78JsuUA/200w.gif" alt="" />
           </Menu>
-          <Close onClick={handleClick}>X</Close>
+          <Close onClick={handleClick}>Cerrar</Close>
         </Nav>
       ) : null}
     </MenuContainer>
