@@ -16,9 +16,6 @@ export const Button = styled.button`
   background: transparent;
   cursor: pointer;
   width: auto;
-  :hover {
-    background: blue;
-  }
 `;
 
 export const Nav = styled.div`
