@@ -37,6 +37,20 @@ export const Nav = styled.div`
   z-index: 100;
   height: 100%;
   position: fixed;
+
+  //hacer animacion al abrir
+    @keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+    animation: slideIn 0.5s ease-in-out;
+
+
+
 `;
 export const Close = styled.button`
   background: #1313139d;
