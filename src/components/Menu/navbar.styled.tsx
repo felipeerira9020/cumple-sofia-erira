@@ -34,10 +34,12 @@ export const Nav = styled.div`
     #061123 50%,
     #061123 100%
   ); */
-  background-image: url("https://media.istockphoto.com/id/886595372/es/foto/un-encanto-de-fondo-hermoso-cielo-el-momento-crepuscular-del-cielo-despu%C3%A9s-de-puesta-del-sol-es.jpg?s=170667a&w=0&k=20&c=V5iM32HBvXbY_1v4d1wR30TJnoh-j0VAAA0pUbNOluA=");
+  background-image: url("https://i.pinimg.com/736x/f2/60/40/f26040d4cb685cdd0ba532dd1459c27f.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    
 
   z-index: 100;
   height: 100%;
