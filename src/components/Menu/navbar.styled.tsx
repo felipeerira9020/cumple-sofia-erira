@@ -13,7 +13,7 @@ export const MenuContainer = styled.nav`
   }
 `;
 export const Button = styled.button`
-  background: red;
+  background: transparent;
   cursor: pointer;
   width: auto;
   :hover {
@@ -30,7 +30,6 @@ export const Nav = styled.div`
   right: 0;
   text-align: center;
   background: #232324;
-  //que el background con degradado blanco y negro en forma de triangulo{}
     background: linear-gradient(
     50deg,
     #dadada 0%,
@@ -47,7 +46,7 @@ export const Nav = styled.div`
   height: 100%;
 `;
 export const Close = styled.button`
-  background: red;
+  background: #ff00009d;
   color: white;
   font-size: 30px;
   font-weight: 100;
@@ -55,6 +54,7 @@ export const Close = styled.button`
   width: 50px;
   height: 50px;
   position: absolute;
+  border: transparent;
 `;
 
 export const Menu = styled.div`
@@ -67,19 +67,19 @@ export const Menu = styled.div`
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: left;
+    padding-left: 40px;
     li {
       margin: 20px 0;
       a {
         text-decoration: none;
-        color: white;
+        color: pink;
         font-size: 25px;
         font-weight: 100;
         letter-spacing: 2px;
-        //que tenga decoracion arriba y abajo
-
-        text-shadow: 0 0 10px #0000006a;
-        text-decoration: underline;
-      
+        &:hover {
+            color: #90891b;
+        }    
     }
     }
   }
