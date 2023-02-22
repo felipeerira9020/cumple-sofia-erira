@@ -7,7 +7,7 @@ export const Maribel = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   top: 0;
-  .menu {
+  button {
     position: absolute;
     top: 10px;
     right: 10px;

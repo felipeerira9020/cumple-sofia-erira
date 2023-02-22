@@ -1,4 +1,4 @@
-import Menu from "../Menu/Menu";
+import Menu from "../Menu/Navbar";
 import { IProps } from "../model/interface";
 import { Maribel, Mariposas } from "./Header.styled";
 
