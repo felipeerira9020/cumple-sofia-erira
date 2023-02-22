@@ -27,13 +27,18 @@ export const Nav = styled.div`
   left: auto;
   right: 0;
   text-align: center;
-  background: linear-gradient(
+  /* background: linear-gradient(
     50deg,
-    #90891b 0%,
-    #90891b 10%,
-    #1b9089  50%,
-    #1b9089 100%
-  );
+    #425174 0%,
+    #425174  10%,
+    #061123 50%,
+    #061123 100%
+  ); */
+  background-image: url("https://media.istockphoto.com/id/886595372/es/foto/un-encanto-de-fondo-hermoso-cielo-el-momento-crepuscular-del-cielo-despu%C3%A9s-de-puesta-del-sol-es.jpg?s=170667a&w=0&k=20&c=V5iM32HBvXbY_1v4d1wR30TJnoh-j0VAAA0pUbNOluA=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
   z-index: 100;
   height: 100%;
   position: fixed;
@@ -53,7 +58,8 @@ export const Nav = styled.div`
 
 `;
 export const Close = styled.button`
-  background: #1313139d;
+ // background: #d29fca;
+ background: black;
   color: white;
   font-size: 30px;
   font-weight: 100;
@@ -77,11 +83,19 @@ export const Menu = styled.div`
     margin: 0;
     text-align: left;
     padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     li {
-      margin: 20px 0;
+      display: flex;
+      align-items: center;
       a {
         text-decoration: none;
-        color: #fddce2;
+       //color: #fddce2;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+        background: #494545;
         font-size: 25px;
         font-weight: 100;
         letter-spacing: 2px;
