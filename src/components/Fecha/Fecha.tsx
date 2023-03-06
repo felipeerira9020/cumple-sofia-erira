@@ -11,11 +11,12 @@ export const Fecha = () => {
             <Maribel/>
         </Day>
         <Date>
-            <H3 textAling='center'>Lugar:</H3>
+            <H3 paddingLeft="20px">Lugar:</H3>
             <PWhite>Mall Edificio Select</PWhite>
             <PWhite>Cra. 30 #10c-134, Peces al agua</PWhite>
             <Barrio>El Poblado, Medellín</Barrio>
-            <H3 paddingLeft="20px" fontSize='22px'>Hora: 3:00 p.m - 6:00 p.m</H3>
+            <H3 paddingLeft="20px">Hora:</H3>
+            <PWhite>3:00 p.m - 6:00 p.m</PWhite>
             <ImgFondo/>
             
 

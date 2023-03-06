@@ -60,12 +60,11 @@ export const Barrio = styled.p`
   padding-bottom: 10px;
 `;
 
-//div con una imagen de fondo
 
 export const ImgFondo = styled.div`
   background-image: url("/assets/disney1.png");
-  height: 60px;
   width: 60%;
+  height: 60px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -74,6 +73,10 @@ export const ImgFondo = styled.div`
   margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
+  @media (min-width: 768px) {
+    height: 80px;
+  }
+  
 `;
 export const Maribel = styled.div`
   background-image: url("/assets/maribel.png");
