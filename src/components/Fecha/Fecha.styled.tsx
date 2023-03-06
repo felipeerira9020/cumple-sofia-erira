@@ -38,7 +38,7 @@ export const H2White = styled.h2`
 `;
 
 export const H3 = styled.h3`
-  font-size: 1.7rem;
+  font-size: ${(props: IProps) => props.fontSize || "1.7rem"};
   color: #f7a8b8;
   text-align: ${(props: IProps) => props.textAling || "left"};
   padding-left: ${(props: IProps) => props.paddingLeft || "0"};
