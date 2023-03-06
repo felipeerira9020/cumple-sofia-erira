@@ -11,6 +11,10 @@ export const MenuContainer = styled.nav`
     padding: 0px;
     font-weight: 100;
   }
+  //para tablet y desktop display none
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 export const Button = styled.button`
   background: transparent;

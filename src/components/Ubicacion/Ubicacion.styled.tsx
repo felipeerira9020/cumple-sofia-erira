@@ -20,22 +20,22 @@ padding: 0px 10px;
         25% {
             top: 5%;
             color: var(--primary-color);
-
+            
         }
         50% {
             top: 10%;
             color: var(--secondary-color);
-
+            
         }   
         75% {
             top: 15%;
             color: var(--primary-color);
-
+            
         }
         100% {
             top: 0;
             color: var(--secondary-color);
-
+            
         }
     }
 }

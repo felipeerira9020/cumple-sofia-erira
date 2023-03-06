@@ -8,7 +8,7 @@ import { IProps } from "../../components/model/interface";
 import Confirmar from "../../components/Confirmar/Confirmar";
 import Confetti from "../../components/Confetti/Confetti";
 import Espero from "../../components/Espero/Espero";
-
+import { Container } from "./Home.styled";
 const Home = () => {
   const [data, setData] = useState<IProps[]>([]);
   const [loading, setLoading] = useState(true);
@@ -22,16 +22,20 @@ const Home = () => {
 
   if (loading) {
     return (
+      <Container>
+
       <ImgFondo
         style={{ backgroundImage: `url(${data?.[0]?.fondo})`, height: "100vh" }}
       >
         <Loading />{" "}
       </ImgFondo>
+      </Container>
     );
   }
   return (
     <div>
        <Confetti/>
+       <Container>
       <ImgFondo style={{ backgroundImage: `url(${data?.[0]?.fondo})` }}>
         <Header img={data?.[0]?.img} />
         <Invitacion />
@@ -44,6 +48,7 @@ const Home = () => {
         <p>Contacto: 3017548257 - 3004296003</p>
       </Footer>
       </ImgFondo>
+      </Container>
     </div>
    
   );

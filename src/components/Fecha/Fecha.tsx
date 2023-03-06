@@ -5,7 +5,7 @@ export const Fecha = () => {
   return (
     <Container>
         <Day>
-            <H2>sabado</H2>
+            <H2>sábado</H2>
             <H2White>25</H2White>
             <H2 fontSize='1.5rem'>mARZO</H2>
             <Maribel/>
@@ -15,7 +15,7 @@ export const Fecha = () => {
             <PWhite>Mall Edificio Select</PWhite>
             <PWhite>Cra. 30 #10c-134, Peces al agua</PWhite>
             <Barrio>El Poblado, Medellín</Barrio>
-            <H3 paddingLeft="20px">hORA: 3:00 p.m.</H3>
+            <H3 paddingLeft="20px">Hora: 3:00 p.m - 6:00 p.m</H3>
             <ImgFondo/>
             
 

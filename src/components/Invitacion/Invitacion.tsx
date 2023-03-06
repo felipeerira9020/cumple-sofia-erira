@@ -6,7 +6,7 @@ const Invitacion = () => {
     <div>
       <Nombre/>
       <H1> Cumple 5 años</H1>
-      <H3>ACOMPAÑANOS A CELEBRAR</H3>
+      <H3>!ACOMPÁÑANOS A CELEBRAR¡</H3>
     </div>
   )
 }

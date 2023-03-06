@@ -16,7 +16,7 @@ export const H3 = styled.h3`
 `;
 
 export const ImgFondo = styled.div`
-  background-image: url("/assets/sofia.jpg");
+background-image: url("/assets/sofia.jpg");
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
